@@ -1,0 +1,36 @@
+$width:1200;
+$column:12;
+.container {
+    max-width: $width * 1px;
+    width: 90%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex {
+    display: flex;
+}
+.ai-center {
+    align-items: center;
+}
+.jc-between {
+    justify-content: space-between;
+}
+.jc-center {
+    justify-content: center;
+}
+.f-d-row {
+    flex-direction: row;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+//column grid
+@for $j from 1 through $column {
+    .col#{$j} {
+        width: calc((100%/($column/$j))) - 3%;
+        margin: 1.5%;
+    }
+}

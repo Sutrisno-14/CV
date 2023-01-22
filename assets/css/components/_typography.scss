@@ -1,0 +1,34 @@
+$font1:'Merriweather', serif;
+$defaultFont: 'Poppins', sans-serif;
+
+//font size
+
+// line-heigh = semakin besar nilai line-height maka semakin kecil tulisan
+            // p, h5 = (180-200)%
+            // h4,h3,h2,h1 = (110-130)%
+            // size (16-30) px - line height 180% -> aman untuk di pakai
+// base 1.2, 1.4, 1.6 = untuk size ->font-size
+p {
+    font-size: 16px;
+    line-height: 180%;
+}
+h5 {
+    font-size: 16px;
+    line-height: 180%;
+}
+h4 {
+    font-size: calc(16 * 1.4) * 1px;
+    line-height: 180%;
+}
+h3 {
+    font-size: calc(22.4 * 1.4) * 1px;
+    line-height: 120%;
+}
+h2 {
+    font-size: calc(31.36 * 1.4) * 1px;
+    line-height: 120%;
+}
+h1 {
+    font-size: calc(43.904 * 1.4) * 1px;
+    line-height: 120%;
+}

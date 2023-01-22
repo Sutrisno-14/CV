@@ -1,0 +1,28 @@
+.img-responsive {
+    width: 100%;
+}
+.icon16 {
+    width: 16px;
+}
+.icon28 {
+    width: 28px;
+}
+.icon32 {
+    width: 32px;
+}
+.circle {
+    &-small {
+        border-radius: 50%;
+    }
+    &-medium {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+}
+
+.circle-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}

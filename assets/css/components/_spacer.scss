@@ -1,0 +1,29 @@
+.spacer-first {
+    padding: 5% 0;
+}
+.spacer-section {
+    padding: 0 0 5%;
+}
+.padding10 {
+    padding: 0 10px;
+}
+.padding10-l{
+    padding-left: 10px;
+}
+.padding10-r{
+    padding-right: 10px;
+}
+.margin10-t {
+    margin-top: 10px;
+}
+.margin15-b {
+    margin-bottom: 15px;
+}
+.margin10-l {
+    margin-left: 30px;
+}
+@for $i from 1 through 10 {
+    .spacer#{$i*5} {
+        margin-top: calc($i*5) *1px;
+    }
+}
